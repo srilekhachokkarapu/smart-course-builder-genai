@@ -129,29 +129,6 @@ Open that URL in your browser.
 
 ---
 
-## ☁️ Deployment (Streamlit Community Cloud)
-
-1. Push the project to GitHub (include `smart_course_builder.py` and `requirements.txt`). [web:139]
-2. Go to **https://streamlit.io/cloud** and sign in with GitHub.
-3. Click **“New app”**, select your repo and branch.
-4. Set **Main file path** to:
-
-```
-smart_course_builder.py
-```
-
-5. Under **Secrets / Environment variables**, add:
-
-```
-GEMINI_API_KEY="your_real_gemini_api_key_here"
-```
-
-6. Click **Deploy**.
-
-Streamlit Cloud will install dependencies and host your app at a public URL. [web:139][web:143]
-
----
-
 ## 🔐 Authentication & Data Model
 
 - Users are stored in `users_data.json` with:
@@ -209,31 +186,4 @@ Suggestions and improvements are welcome:
 2. Create a feature branch.
 3. Commit your changes.
 4. Open a pull request.
-
-Examples of useful enhancements:
-
-- Better password hashing (bcrypt/Argon2). [web:131]  
-- Database integration (PostgreSQL, SQLite).  
-- Role-based access (teacher vs student).  
-- Course export formats (HTML, DOCX).
-
----
-
-## 📄 License
-
-Add your preferred license (e.g., MIT) here, for example:
-
 ```
-This project is licensed under the MIT License.
-```
-
----
-
-## ⚠️ Disclaimer
-
-This project is for educational and prototype purposes.  
-Always review AI-generated course content for correctness, bias, and safety before using it in real teaching scenarios. [web:97]
-```
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/104876776/69748cc6-d504-4784-acca-79389384d221/lekha-1.py)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/104876776/72f74a61-3ed3-4138-84a4-f27b013e3d9b/image.jpg)
